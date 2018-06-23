@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+
+<form (ngSubmit)="onSubmit()">
+    <label for="searchTerm">Search Term</label>
+    <input [(ngModel)]="searchTerm" class="u-full-width" type="text" id="searchTerm" name="searchTerm"> 
+    <button type="submit">Search</button>
+</form>
+
+<img *ngIf="loading" src="http://www.animatedimages.org/data/media/105/animated-woman-image-0002.gif">
+
+
+
+<section class="images">
+    <img *ngFor="let image of images" src="{{image.previewURL}}" >
+  </section>
