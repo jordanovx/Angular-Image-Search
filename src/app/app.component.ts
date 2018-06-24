@@ -13,19 +13,21 @@ export class AppComponent {
   title = 'Angular Image Search';
   searchTerm = '';
   loading = false;
-  images = [];
+  hits = [];
 
   onSubmit() {
     console.log(this.imageService)
      this.loading = false;
-     this.images = [];
+     this.hits = [];
      this.imageService.search(this.searchTerm)
 
        .subscribe((result: any) => {
-         this.images = result.photos;
+         this.hits = result.hits;
          this.loading = false;
       });
   }
+
+
 
 
 }

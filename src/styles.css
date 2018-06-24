@@ -4,6 +4,9 @@ body {
 }
 
 img {
-    margin-left: 50%;
+    width:100%;
+}
 
+.images {
+    column-count: 3;
 }
