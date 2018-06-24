@@ -1,10 +1,11 @@
-# AngularSearchAPI
+# Build an Image Search App with:
+Angular 6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Development server
+## This app use Skeleton CSS framework: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
 
 ## Code scaffolding
 
