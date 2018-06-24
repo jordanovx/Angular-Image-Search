@@ -3,6 +3,13 @@ Angular 6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+
+## This app is using Pixabay API
+
+`https://pixabay.com/api`
+
+You will need to register and you will get you Key!
+
 ## This app use Skeleton CSS framework: 
 
 ```html
