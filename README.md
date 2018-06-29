@@ -19,7 +19,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 You will need to register and you will get you Key!
 
-## This app use Skeleton CSS framework: 
+## This app use Skeleton CSS framework:
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
@@ -41,6 +41,7 @@ body {
 * [x] Show loading image
 * [x] Append Results to the page
 * [x] Hide loading image
-* [] Add Routes (Home,Fav,Log In)
-* [] Make log in form
-* [] Make cart Favourites (user can add to fav, only if he is loged in)
+* [ ] Add Routes (Home,Fav,Log In)
+* [ ] Make log in form
+* [ ] Make cart Favourites (user can add to fav, only if he is loged in)
+* [ ] CSS, Responsive, design changes
