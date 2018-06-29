@@ -1,15 +1,75 @@
-<h1>{{title}}</h1>
+<div class="container">
+    <h2 class="section-heading">{{title}}</h2>
+  <div class="row">
+      <form (ngSubmit)="onSubmit()">
+          <label for="searchTerm">Search Term</label>
+          <input [(ngModel)]="searchTerm" class="u-full-width" type="text" id="searchTerm" name="searchTerm">
+          <button type="submit" class="button button-primary">Search</button>
+      </form>
 
-<form (ngSubmit)="onSubmit()">
-    <label for="searchTerm">Search Term</label>
-    <input [(ngModel)]="searchTerm" class="u-full-width" type="text" id="searchTerm" name="searchTerm"> 
-    <button type="submit">Search</button>
-</form>
-
-<img *ngIf="loading" src="http://www.animatedimages.org/data/media/105/animated-woman-image-0002.gif">
+  </div>
 
 
 
-<section class="images">
-    <img *ngFor="let image of hits" src="{{ image.webformatURL }}" >
-</section>
+  <div class="loader">
+      <div *ngIf="loading" class="loading"></div>
+  </div>
+
+
+  <section class="images">
+      <div class="gallery" *ngFor="let image of hits">
+        <a href="{{image.pageURL}}" taget="_blank">
+          <img class="imgg one-column  u-max-full-width" src="{{ image.webformatURL }}" >
+        </a>
+        <div class="desc button button-primary" id="desc">
+            <i class="fas fa-eye">{{image.views}}</i>
+            <i class="fas fa-thumbs-up">{{image.likes}}</i>
+            <i class="fas fa-comments">{{image.comments}}</i>
+        </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<!-- .container is main centered wrapper -->
+
+
+  <!-- columns should be the immediate child of a .row -->
+  <div class="row">
+    <div class="one column">One</div>
+    <div class="two columns">TWO !Eleven</div>
+  </div>
+
+  <!-- just use a number and class 'column' or 'columns' -->
+  <div class="row">
+    <div class="two columns">Two</div>
+    <div class="ten columns">Ten</div>
+  </div>
+
+  <!-- there are a few shorthand columns widths as well -->
+  <div class="row">
+    <div class="one-third column">1/3</div>
+    <div class="two-thirds column">2/3</div>
+  </div>
+  <div class="row">
+    <div class="one-half column">1/2</div>
+    <div class="one-half column">1/2</div>
+  </div>
+
+

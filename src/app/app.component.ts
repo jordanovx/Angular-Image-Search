@@ -8,7 +8,7 @@ import { ImageService } from './image.service';
 })
 export class AppComponent {
 
-  constructor(private imageService: ImageService){}
+  constructor(private imageService: ImageService) {}
 
   title = 'Angular Image Search';
   searchTerm = '';
@@ -16,13 +16,14 @@ export class AppComponent {
   hits = [];
 
   onSubmit() {
-    console.log(this.imageService)
-     this.loading = false;
+    console.log(this.imageService);
+     this.loading = true;
      this.hits = [];
      this.imageService.search(this.searchTerm)
 
        .subscribe((result: any) => {
          this.hits = result.hits;
+         console.log(this.hits);
          this.loading = false;
       });
   }
