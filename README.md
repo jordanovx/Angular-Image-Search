@@ -44,4 +44,7 @@ body {
 * [ ] Add Routes (Home,Fav,Log In)
 * [ ] Make log in form
 * [ ] Make cart Favourites (user can add to fav, only if he is loged in)
+<<<<<<< HEAD
 * [ ] CSS, Responsive, design changes
+=======
+>>>>>>> f24c2ef78d4abf5d8cfad6890a5df7b3f043142c
