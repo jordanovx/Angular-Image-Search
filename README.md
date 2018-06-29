@@ -2,7 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-<<<<<<< HEAD
 =======
 ## Development server
 
@@ -44,7 +43,5 @@ body {
 * [ ] Add Routes (Home,Fav,Log In)
 * [ ] Make log in form
 * [ ] Make cart Favourites (user can add to fav, only if he is loged in)
-<<<<<<< HEAD
 * [ ] CSS, Responsive, design changes
-=======
->>>>>>> f24c2ef78d4abf5d8cfad6890a5df7b3f043142c
+
