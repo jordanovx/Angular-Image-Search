@@ -41,6 +41,6 @@ body {
 * [x] Show loading image
 * [x] Append Results to the page
 * [x] Hide loading image
-* [] Add Routes (Home,Fav,Log In)
-* [] Make log in form
-* [] Make cart Favourites (user can add to fav, only if he is loged in)
+* [ ] Add Routes (Home,Fav,Log In)
+* [ ] Make log in form
+* [ ] Make cart Favourites (user can add to fav, only if he is loged in)
