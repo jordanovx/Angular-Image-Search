@@ -64,7 +64,7 @@ img {
 }
 
 a:hover + .desc{
-
+   color:red;
 }
 
 .imgg:hover {
@@ -82,4 +82,3 @@ a:hover + .desc{
 }
 
 }
-

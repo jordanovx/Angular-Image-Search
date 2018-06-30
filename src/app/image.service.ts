@@ -9,7 +9,7 @@ export class ImageService {
   API_URL = 'https://pixabay.com/api/?key=9367141-484652044330e988cd7da4719';
 
   search(searchTerm) {
-    const url = this.API_URL + '&q=' + searchTerm;
+    const url = this.API_URL + '&per_page=50&q=' + searchTerm;
     return this.http.get(url);
   }
 }

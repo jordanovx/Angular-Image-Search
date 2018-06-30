@@ -9,12 +9,9 @@
 
   </div>
 
-
-
   <div class="loader">
       <div *ngIf="loading" class="loading"></div>
   </div>
-
 
   <section class="images">
       <div class="gallery" *ngFor="let image of hits">
@@ -22,9 +19,9 @@
           <img class="imgg one-column  u-max-full-width" src="{{ image.webformatURL }}" >
         </a>
         <div class="desc button button-primary" id="desc">
-            <i class="fas fa-eye">{{image.views}}</i>
-            <i class="fas fa-thumbs-up">{{image.likes}}</i>
-            <i class="fas fa-comments">{{image.comments}}</i>
+            <i class="fas fa-eye test">{{image.views}}</i>
+            <i class="fas fa-thumbs-up test">{{image.likes}}</i>
+            <i class="fas fa-comments test">{{image.comments}}</i>
         </div>
       </div>
   </section>

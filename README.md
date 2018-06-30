@@ -2,8 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-<<<<<<< HEAD
-=======
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -11,13 +9,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
->>>>>>> parent of e41ec6d... 1
 
 ## This app is using Pixabay API
 
 `https://pixabay.com/api`
 
-You will need to register and you will get you Key!
+You will need to register and you will get your Key!
 
 ## This app use Skeleton CSS framework:
 
@@ -41,10 +38,8 @@ body {
 * [x] Show loading image
 * [x] Append Results to the page
 * [x] Hide loading image
+* [x] Added new favicon (search magnifier)
 * [ ] Add Routes (Home,Fav,Log In)
 * [ ] Make log in form
 * [ ] Make cart Favourites (user can add to fav, only if he is loged in)
-<<<<<<< HEAD
 * [ ] CSS, Responsive, design changes
-=======
->>>>>>> f24c2ef78d4abf5d8cfad6890a5df7b3f043142c
