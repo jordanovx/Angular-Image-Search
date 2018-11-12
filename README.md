@@ -43,3 +43,4 @@ body {
 * [ ] Make log in form
 * [ ] Make cart Favourites (user can add to fav, only if he is loged in)
 * [ ] CSS, Responsive, design changes
+* [ ] Migrate from Angular 5 to angular 6, later on 7
